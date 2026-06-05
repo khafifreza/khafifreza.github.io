@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khafif Reza | Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        skenaRed: '#ff3e3e',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-[#0a0a0a] text-gray-200 font-sans antialiased">
+
+    <main class="max-w-2xl mx-auto px-6 py-12">
+        <!-- Header -->
+        <header class="text-center mb-16">
+            <h1 class="text-5xl font-extrabold text-white mb-4 tracking-tighter">KHAFIF REZA</h1>
+            <p class="text-skenaRed font-bold uppercase tracking-widest text-sm italic">Informatics Student / Streetwear Creator</p>
+        </header>
+
+        <!-- Tentang Saya -->
+        <section id="tentang" class="mb-12 border-l-2 border-skenaRed pl-6">
+            <h2 class="text-2xl font-bold text-white mb-4 uppercase">Tentang Saya</h2>
+            <p class="leading-relaxed text-gray-300 text-justify">
+                Mahasiswa Teknik Informatika Universitas Harkat Negeri yang berfokus pada administrasi sistem, 
+                pengelolaan aplikasi, dan desain digital dengan semangat tinggi untuk terus berinovasi. 
+                Memiliki kombinasi keahlian teknis serta soft skill yang terasah melalui keterlibatan aktif 
+                dalam kegiatan seni. Saya adalah pribadi yang teliti dan bertanggung jawab. 
+                <br><br>
+                Portofolio ini merangkum dedikasi saya dalam mengembangkan kompetensi profesional untuk 
+                menciptakan solusi digital yang efektif, estetis, dan berorientasi pada kebutuhan pengguna. 
+                Selain itu, saya juga sedang membangun <i>clothing brand</i> bertema skena bersama partner saya, Amelia Fedra Aini.
+            </p>
+        </section>
+
+        <!-- Proyek -->
+        <section id="proyek" class="mb-12">
+            <h2 class="text-2xl font-bold text-white mb-6 uppercase">Proyek & Portfolio</h2>
+            <div class="grid gap-6">
+                <div class="bg-[#1a1a1a] p-6 border-l-4 border-skenaRed hover:bg-[#222] transition-all">
+                    <h3 class="font-bold text-lg text-white mb-2">System Status Dashboard</h3>
+                    <p class="text-sm text-gray-400 mb-4">Dashboard pemantauan server real-time (simulasi) yang menunjukkan uptime, penggunaan CPU, dan status aplikasi. Fokus pada efisiensi administrasi sistem.</p>
+                    <span class="inline-block bg-[#0a0a0a] px-2 py-1 text-[10px] text-skenaRed border border-skenaRed uppercase tracking-widest">Admin System</span>
+                </div>
+                <div class="bg-[#1a1a1a] p-6 border-l-4 border-gray-600 hover:border-skenaRed transition-all">
+                    <h3 class="font-bold text-lg text-white mb-2">Skena Moodboard & Curated Vibes</h3>
+                    <p class="text-sm text-gray-400 mb-4">Kurasi elemen visual, tipografi, dan referensi musik yang membangun identitas <i>brand</i> streetwear saya. Refleksi dari kultur seni yang saya dalami.</p>
+                    <span class="inline-block bg-[#0a0a0a] px-2 py-1 text-[10px] text-gray-400 border border-gray-600 uppercase tracking-widest">Art Direction</span>
+                </div>
+                <div class="bg-[#1a1a1a] p-6 border-l-4 border-gray-600 hover:border-skenaRed transition-all">
+                    <h3 class="font-bold text-lg text-white mb-2">Clothing Brand (Collaboration)</h3>
+                    <p class="text-sm text-gray-400 mb-4">Pengembangan konsep visual dan manajemen operasional untuk <i>brand</i> apparel yang berfokus pada desain minimalis-skena bersama partner saya, Amey.</p>
+                    <span class="inline-block bg-[#0a0a0a] px-2 py-1 text-[10px] text-gray-400 border border-gray-600 uppercase tracking-widest">Entrepreneurship</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kontak -->
+        <section class="mt-16">
+            <h2 class="text-xl font-bold text-white mb-6 uppercase border-l-4 border-skenaRed pl-4">Mari Terhubung</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <a href="https://instagram.com/rezlhmy" class="py-4 bg-[#1a1a1a] text-center border border-gray-800 hover:border-skenaRed transition-all font-bold uppercase tracking-widest text-xs">Instagram</a>
+                <a href="https://wa.me/6288983315357" class="py-4 bg-[#1a1a1a] text-center border border-gray-800 hover:border-skenaRed transition-all font-bold uppercase tracking-widest text-xs">WhatsApp</a>
+                <a href="mailto:khafifreza17@gmail.com" class="py-4 bg-[#1a1a1a] text-center border border-gray-800 hover:border-skenaRed transition-all font-bold uppercase tracking-widest text-xs">Email</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center pb-8 text-gray-600 text-xs uppercase tracking-tighter">
+        &copy; 2026 Khafif Reza
+    </footer>
+
+</body>
+</html>
